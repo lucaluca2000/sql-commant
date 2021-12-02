@@ -15,3 +15,15 @@ name database :
 
 change database:
   use name database;
+
+
+create tabel :
+CREATE TABLE student(
+    student_id INT IDENTITY(1, 1),
+    name VARCHAR(40),
+    major VARCHAR(30) ,
+    PRIMARY KEY(student_id)
+);
+
+
+
